@@ -1,7 +1,7 @@
-<h1 align="center"> Inflex Music Bot <\> </h1>
+<h1 align="center"> Queen Music Bot <\> </h1>
 
 <p align="center">
-  <img src="https://graph.org/file/9d75bfb77e17b80b3da5b.png" alt="Inflex Music Logo" width="640" height="360">
+  <img src="https://telegra.ph/file/7ca4de054c4b2a712810b.jpg" alt="Inflex Music Logo" width="640" height="360">
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@
       ─「 <\> Deploy On Heroku <\> 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/TeamInflex/InflexMusicBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/KING0712/QUEEN_MUSIC/tree/master"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ### 🔧 Quick Setup
@@ -57,7 +57,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/TeamInflex/InflexMusicBot && cd InflexMusicBot
+   git clone https://github.com/KING0712/QUEEN_MUSIC/tree/master
    ```
 6. **Install Requirements**
    ```bash
@@ -98,47 +98,3 @@ The Inflex Music Bot Offers A Range Of Commands To Enhance Your Music Listening 
 | `/skip`                 | Move To The Next Song In The Queue.         |
 | `/stop`                 | Stop The Bot And Clear The Queue.           |
 | `/queue`                | Display The List Of Songs In The Queue.     |
-
-For A Full List Of Commands, Use `/help` in [Telegram](https://t.me/InflexMusicBot).
-
----
-
-### 🔄 Updates & Support
-
-Stay Updated With The Latest Features And Improvements To Inflex Music Bot:
-
-<p align="center">
-  <a href="https://telegram.me/InflexSupport">
-    <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
-  </a>
-  <a href="https://telegram.me/TeamInflex">
-    <img src="https://img.shields.io/badge/Join-Update%20Channel-blue?style=for-the-badge&logo=telegram">
-  </a>
-</p>
-
----
-
-### 🤝 Contributing
-
-We Welcome Contributions To The Inflex Music Bot Project. If You'd Like To Contribute, Please Follow These Steps :
-
-1. [Fork The Repository.](https://github.com/TeamInflex/InflexMusicBot/fork)
-2. Create A New Branch With A Meaningful Name.
-3. Make Your Changes And Commit Them With A Descriptive Commit Message.
-4. Open A Pull Request Against Our `main` Branch.
-5. Our Team Will Review Your Changes And Provide Feedback.
-
-For More Details, Reach Out Us On Telegram.
-
----
-
-### 📜 License
-
-This project Is Licensed Under The MIT License. For More Details, See The [LICENSE](LICENSE) File.
-
----
-
-### 🙏 Acknowledgements
-
-Special Thanks To All The Contributors , Supporters , And Users Of The Inflex Music Bot. Your Feedback And Support Keep Us Going !
-- [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot) , [AviaxMusic](https://github.com/TeamAviax/AviaxMusic) And [AnonXMusic](https://github.com/AnonymousX1025/AnonXMusic) For Their Source Codes.
