@@ -1,7 +1,7 @@
 {
-    "name": "Inflex Music Bot",
+    "name": "King Music Bot",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/d6a63fe91240f0b271f7f.jpg",
+    "logo": "https://telegra.ph/file/7ca4de054c4b2a712810b.jpg",
     "keywords": [
     "python3",
     "telegram",
