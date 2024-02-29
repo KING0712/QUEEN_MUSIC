@@ -8,7 +8,7 @@ from youtubesearchpython.__future__ import VideosSearch
 import config
 from SHUKLAMUSIC import app
 from SHUKLAMUSIC.misc import _boot_
-from DAXXMUSIC.plugins.sudo.sudoers import sudoers_list
+from SHUKLAMUSIC.plugins.sudo.sudoers import sudoers_list
 from SHUKLAMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
 from SHUKLAMUSIC.utils import bot_sys_stats
 from SHUKLAMUSIC.utils.database import (
