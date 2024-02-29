@@ -50,7 +50,7 @@ async def upscale_image(app, message):
 
 waifu_api_url = 'https://api.waifu.im/search'
 
-# IAM_DAXX
+# SHIVANSH39
 
 def get_waifu_data(tags):
     params = {
