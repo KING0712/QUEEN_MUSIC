@@ -167,16 +167,18 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-**❅────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────❅**
+**⎊─────☵ ᴡᴇʟᴄᴏᴍᴇ ☵─────⎊**
 
-▰▰▰▰▰▰▰▰▰▰▰▰▰
-**➻ ɴᴀᴍᴇ »** {user.mention}
-**➻ ɪᴅ »** `{user.id}`
-**➻ ᴜ_ɴᴀᴍᴇ »** @{user.username}
-**➻ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
-▰▰▰▰▰▰▰▰▰▰▰▰▰
+**▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬**
 
-**❅─────✧❅✦❅✧─────❅**
+**☉ ɴᴀᴍᴇ ⧽** {user.mention}
+**☉ ɪᴅ ⧽** `{user.id}`
+**☉ ᴜ_ɴᴀᴍᴇ ⧽** @{user.username}
+**☉ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ⧽** {count}
+
+**▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬**
+
+**⎉──────▢✭ 侖 ✭▢──────⎉**
 """,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton(button_text, url=deep_link)],
