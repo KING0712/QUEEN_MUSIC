@@ -14,11 +14,11 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","SHIVANSH39")
+OWNER_USERNAME = getenv("OWNER_USERNAME","l_MR_ll_KING_l")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Itz_SapnaMusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "l_OP_ll_MUSIC_l_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "SAPNA")
+BOT_NAME = getenv("BOT_NAME" , "QUEEN")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "KHWAAISH_HOON")
 # ---------------------------------------------------------
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002052279824))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+OWNER_ID = int(getenv("OWNER_ID", 6924946313))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/itzshukla/STRANGER-MUSIC",
+    "https://github.com/KING0712/QUEEN_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SHIVANSH474")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mastiwithfriendsx")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_ABOUT_l_KING_l")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+uF_GVlNuJ_dkZGVl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mastiwithfriendsx")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
