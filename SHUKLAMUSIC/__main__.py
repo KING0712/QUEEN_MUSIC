@@ -50,12 +50,12 @@ async def init():
         pass
     await SHUKLA.decorators()
     LOGGER("SHUKLAMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛 𝗦𝗛𝗨𝗞𝗟𝗔☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗞𝗜𝗡𝗚 𝗦𝗛𝗨𝗞𝗟𝗔☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SHUKLAMUSIC").info("𝗦𝗧𝗢𝗣 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("SHUKLAMUSIC").info("𝗦𝗧𝗢𝗣 𝗞𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
