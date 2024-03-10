@@ -15,7 +15,8 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗕𝗘𝗙𝗢𝗥𝗘+𝗗𝗘𝗣𝗟𝗢𝗬)
 
-## 😇 𝗘𝗡𝗝𝗢𝗬 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 😇
+## 🥳 𝗘𝗡𝗝𝗢𝗬 🥳
+
 ✅ 𝐍𝐨 𝐋𝐚𝐠 💥 𝐒𝐮𝐩𝐞𝐫𝐅𝐚𝐬𝐭 🌟 𝐕𝐂 ️𝐌𝐮𝐬𝐢𝐜 🔊𝐏𝐥𝐚𝐲𝐞𝐫✌️🔥
 
 <h3 align="center">
