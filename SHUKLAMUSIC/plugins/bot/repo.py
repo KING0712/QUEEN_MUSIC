@@ -40,38 +40,38 @@ async def start(_, msg):
 
 ],
 [
-              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://github.com/itzshukla/STRANGER-BANALL/fork"),
-              InlineKeyboardButton("︎𝗩2 𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/itzshukla/STRANGER-MUSIC/fork"),
+              InlineKeyboardButton("🔥 𝐌𝐔𝐒𝐈𝐂 𝐑𝐄𝐏𝐎 🔥", url=f"https://github.com/itzshukla/STRANGER-BANALL/fork"),
+              InlineKeyboardButton("︎", url=f""),
               ],
               [
-              InlineKeyboardButton("𝗩1 𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/itzshukla/STRANGER-MUSIC2.0/fork"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/itzshukla/STRANGER-CHATBOT/fork"),
+              InlineKeyboardButton("", url=f""),
+InlineKeyboardButton("", url=f""),
 ],
 [
-InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://github.com/itzshukla/STRANGER-STRING-GEN/fork"),
-InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧", url=f"https://github.com/itzshukla/STRANGER-ROBOT/fork"),
+InlineKeyboardButton("", url=f""),
+InlineKeyboardButton("", url=f""),
 ],
 [
-              InlineKeyboardButton("𝗦𝗣𝗔𝗠 𝗕𝗢𝗧", url=f"https://github.com/itzshukla/STRANGER-SPAM-X/fork"),
-              InlineKeyboardButton("𝗕𝗔𝗡𝗔𝗟𝗟 10 𝗕𝗢𝗧︎", url=f"https://github.com/itzshukla/STRANGER-BANALL-BOTS/fork"),
+              InlineKeyboardButton("", url=f""),
+              InlineKeyboardButton("", url=f""),
               ],
               [
-              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗛𝗔𝗖𝗞︎", url=f"https://github.com/itzshukla/STRANGER-SESSION-HACK/fork"),
-InlineKeyboardButton("𝗜𝗗 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/itzshukla/STRANGER-IDCHATBOT/fork"),
+              InlineKeyboardButton("", url=f""),
+InlineKeyboardButton("", url=f""),
 ],
 [
-InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/itzshukla/STRANGER-USERBOT3.0/fork"),
-InlineKeyboardButton("𝗜𝗗-𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://t.me/Shukla_op_clone1bot"),
+InlineKeyboardButton("", url=f""),
+InlineKeyboardButton("", url=f""),
 ],
 [
-InlineKeyboardButton("𝗦𝗨𝗣𝗘𝗥-𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/itzshukla/STRANGER-HELLBOT/fork"),
+InlineKeyboardButton("", url=f""),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/d9bddd89a8070632de73e.jpg",
+        photo="https://telegra.ph/file/06870e77517a855a9b6a6.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -84,7 +84,7 @@ InlineKeyboardButton("𝗦𝗨𝗣𝗘𝗥-𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://api.github.com/repos/itzshukla/STRANGER-MUSIC/contributors")
+        response = await client.get("https://api.github.com/repos/KING0712/QUEEN_MUSIC/contributors")
     
     if response.status_code == 200:
         users = response.json()
@@ -94,7 +94,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/itzshukla/STRANGER-MUSIC) | [UPDATES](https://t.me/SHIVANSH474)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/KING0712/QUEEN_MUSIC) | [UPDATES](https://t.me/l_ABOUT_l_KING_l)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
