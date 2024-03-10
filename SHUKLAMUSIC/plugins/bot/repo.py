@@ -7,19 +7,19 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя 𝚂𝚝𝚛𝚊𝚗𝚐𝚎𝚛 яєρσѕ ✪
+✪ 𝗞𝗬𝗔 𝗕𝗘 𝗕𝗦𝗗𝗞 ✪
  
- ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ ➲ 𝗥𝗘𝗣𝗢 𝗖𝗛𝗔𝗛𝗜𝗬𝗘 ✰
  
- ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
+ ➲ 𝗟𝗔𝗡𝗗 𝗟𝗘 𝗠𝗘𝗥𝗔 ✰
  
- ➲ ɴᴏ ɪᴅ ʙᴀɴ ɪssᴜᴇ ✰
+ ➲ 𝗩𝗢 𝗕𝗛𝗜 𝗠𝗨𝗛 𝗠𝗔𝗜𝗡 ✰
  
- ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
+ ➲ 𝗣𝗔𝗛𝗟𝗘 𝗧𝗨 𝗠𝗨𝗝𝗘 ✰
  
- ➲ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
+ ➲ 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟 𝗧𝗔𝗕 ✰
  
- ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss
+ ► 𝗥𝗘𝗣𝗢 𝗗𝗨𝗡𝗚𝗔
 **"""
 
 
@@ -29,18 +29,18 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("⚡ 𝗔𝗗𝗗 𝗠𝗘 ⚡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/mastiwithfriendsx"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/SHIVANSH39"),
+          InlineKeyboardButton("🤍 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🤍", url="https://t.me/+uF_GVlNuJ_dkZGVl"),
+          InlineKeyboardButton("👑 𝗢𝗪𝗡𝗘𝗥 👑", url="https://t.me/l_MR_ll_KING_l"),
           ],
                [
-                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/SHIVANSH474"),
+                InlineKeyboardButton("🖤 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🖤", url="https://t.me/+N3uhCMbt514yYzc9"),
 
 ],
 [
-              InlineKeyboardButton("🔥 𝐌𝐔𝐒𝐈𝐂 𝐑𝐄𝐏𝐎 🔥", url=f"https://github.com/itzshukla/STRANGER-BANALL/fork"),
+              InlineKeyboardButton("🔥 𝐌𝐔𝐒𝐈𝐂 𝐑𝐄𝐏𝐎 🔥", url=f"https://t.me/l_MR_ll_KING_l"),
               InlineKeyboardButton("︎", url=f""),
               ],
               [
