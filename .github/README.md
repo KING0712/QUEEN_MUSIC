@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/b61227af05544deb76a34.jpg">
+  <img src="https://telegra.ph/file/d30d3f9cc4a2f5a09999a.jpg">
 </p>
 
 
@@ -22,7 +22,7 @@
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 
-<h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
+<h3> 𝗡𝗜𝗖𝗛𝗘 𝗛𝗘𝗥𝗢𝗞𝗨 𝗞𝗘 𝗕𝗨𝗧𝗧𝗢𝗡 𝗗𝗘𝗣𝗟𝗢𝗬 𝗞𝗔𝗥 𝗟𝗘 🤧 </h3>
 </h3>
 
 
