@@ -14,7 +14,7 @@ from SHUKLAMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="𓊈𒆜彡[ 𝗥𝗘𝗗 𝗭𝗢𝗡𝗘 ]彡𒆜𓊉",
+            text="𐏓𝐑ᴇᴅ ᯓ⵿⵿⵿⵿𝐙ᴏɴᴇ ꯭🍷࿐",
             url=f"https://t.me/l_RED_l_ZONE_l",
         ),
     ],
@@ -106,11 +106,11 @@ async def ctest(_, message):
          img.save(f'test_{cid}.png')
     
          TXT = f"""
-**ᴛᴏᴅᴀʏ's ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ :
+**𝐓ᴏᴅᴀʏ's 𝐂ᴏᴜᴘʟᴇ 𝐎ғ 𝐓ʜᴇ 𝐃ᴀʏ :
 
 {N1} + {N2} = 💚
 
-ɴᴇxᴛ ᴄᴏᴜᴘʟᴇs ᴡɪʟʟ ʙᴇ sᴇʟᴇᴄᴛᴇᴅ ᴏɴ {tomorrow} !!**
+𝐍ᴇxᴛ 𝐂ᴏᴜᴘʟᴇs 𝐖ɪʟʟ 𝐁ᴇ 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐎ɴ {tomorrow} !!**
 """
     
          await message.reply_photo(f"test_{cid}.png", caption=TXT, reply_markup=InlineKeyboardMarkup(POLICE),
