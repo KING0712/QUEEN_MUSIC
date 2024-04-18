@@ -34,25 +34,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "ـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨"
     elif 10 < umm < 20:
-        bar = "ـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨"
     elif 20 <= umm < 30:
-        bar = "꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
     elif 30 <= umm < 40:
-        bar = "꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
     elif 40 <= umm < 50:
         bar = "꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭"
     elif 50 <= umm < 60:
         bar = "꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭"
     elif 60 <= umm < 70:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     elif 70 <= umm < 80:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     elif 80 <= umm < 95:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨"
+        bar = "ـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     else:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨"
+        bar = "ـ꯭꯭꯭꯭𝐓𝛔⃔͢xɪ𝙲͢-𝐎꯭ᴘ꯭ﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     buttons = [
                 [
             InlineKeyboardButton(
@@ -61,10 +61,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="❤️", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="💙", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="🖤", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="🤍", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="🇸", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="🇴", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="🇳", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="🇬", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
          InlineKeyboardButton(text="😈 𝐎𝐰𝐧𝐞𝐫 😈", user_id=config.OWNER_ID),
@@ -78,10 +78,10 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="❤️", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="💙", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="🖤", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="🤍", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="🇸", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="🇴", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="🇳", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="🇬", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
          InlineKeyboardButton(text="😈 𝐎𝐰𝐧𝐞𝐫 😈", user_id=config.OWNER_ID),
