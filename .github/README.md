@@ -26,4 +26,4 @@
 </h3>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/wwwlbs22/ARTISTST_STYLE_MUSIC"> <img src="https://telegra.ph/file/c0465bd13875b249a9a8f.jpg" width="520" height="198.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/wwwlbs22/ARTISTST_STYLE_MUSIC"> <img src="https://telegra.ph/file/5c6425366736e86e0b0b8.jpg" width="520" height="198.45"/></a></p>
