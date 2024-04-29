@@ -1,9 +1,9 @@
 <h2 align="center">
-    ─「 ˹𝐐ᴜᴇᴇɴ 𝗢𝗙𝗙 𝐌ᴜsɪᴄ˼ ♪ 」─
+    ─「 ˹𝐐ᴜᴇᴇɴ 𝐌ᴜsɪᴄ˼ ♪ 」─
 
 </h2>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐋𝐎𝐕𝐄𝐋𝐘+𝐌𝐔𝐒𝐈𝐂+𝐑𝐄𝐏𝐎;ㅤ+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃+🔥;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗗𝗘𝗩𝗜𝗟+𝗢𝗣+😈)](https://github.com/KING0712/QUEEN_MUSIC)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐋𝐎𝐕𝐄𝐋𝐘+𝐌𝐔𝐒𝐈𝐂+𝐑𝐄𝐏𝐎;ㅤ+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃+🔥;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗠𝗥+𝗞𝗜𝗡𝗚+🇧 🇦 🇧 🇾 +😈)](https://github.com/KING0712/QUEEN_MUSIC)
 
 
 
