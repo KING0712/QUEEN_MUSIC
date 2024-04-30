@@ -180,8 +180,8 @@ stream_2 : "➜ <b>𝐒ᴛᴀʀᴛᴇᴅ 𝐒ᴛʀᴇᴀᴍɪɴɢ 🍹</b>\n\n<b
 
 CLOSE_BUTTON  : "🖤 𝐂ℓσѕє 🖤"
 BACK_BUTTON : "⚡ 𝐁αᴄк ⚡"
-NEXT_PAGE: "🔘>"
-BACK_PAGE: "<🔘"
+NEXT_PAGE: "|❚=>"
+BACK_PAGE: "<=❚|"
 
 
 S_B_1 : "😉 𝐀ᴅᴅ 𝐌ᴇ 😉"
