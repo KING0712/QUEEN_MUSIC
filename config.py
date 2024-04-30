@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_STAYLISH_l_DPZ_l")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/l_RED_l_ZONE_l")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KING_BHAI_BABY")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KING_BHAI_BABY")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
