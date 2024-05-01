@@ -4,33 +4,33 @@ import random
 import requests
 from SHUKLAMUSIC import app 
 
-SUPPORT_CHAT = "MASTIWITHFRIENDSX"
+SUPPORT_CHAT = "KING_BHAI_BABY"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
     if len(m.command) < 2:
-        await m.reply("ᴀᴅᴅ ᴡɪꜱʜ ʙᴀʙʏ🥀!")
+        await m.reply("𝐀ᴅᴅ 𝐖ɪꜱʜ 𝐁ᴀʙʏ🥀!")
         return 
 
     api = requests.get("https://nekos.best/api/v2/happy").json()
     url = api["results"][0]['url']
     text = m.text.split(None, 1)[1]
     wish_count = random.randint(1, 100)
-    wish = f"✨ ʜᴇʏ! {m.from_user.first_name}! "
-    wish += f"✨ ʏᴏᴜʀ ᴡɪꜱʜ: {text} "
-    wish += f"✨ ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ: {wish_count}%"
+    wish = f"❣️ 𝐇ᴇʏ... {m.from_user.first_name}! "
+    wish += f"😉 𝐘ᴏᴜʀ 𝐖ɪꜱʜ ➻ {text} "
+    wish += f"🤫 𝐏ᴏꜱꜱɪʙʟᴇ 𝐓ᴏ ➻ {wish_count}%"
     
     await app.send_animation(
         chat_id=m.chat.id,
         animation=url,
         caption=wish,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]])
+            [[InlineKeyboardButton("🥺 𝐒ᴜᴘᴘᴏʀᴛ 🥺", url=f"https://t.me/{SUPPORT_CHAT}")]])
     )
             
     
-BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
-CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
+BUTTON = [[InlineKeyboardButton("🥺 𝐒ᴜᴘᴘᴏʀᴛ 🥺", url=f"https://t.me/{SUPPORT_CHAT}")]]
+CUTIE = "https://telegra.ph/file/b948981351c0ffeaec2dd.jpg"
 
 @app.on_message(filters.command("cute"))
 async def cute(_, message):
@@ -43,7 +43,7 @@ async def cute(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    CUTE = f"🍑 {mention} {mm}% ᴄᴜᴛᴇ ʙᴀʙʏ🥀"
+    CUTE = f"🍑 {mention} {mm}% 𝐂ᴜᴛᴇ 𝐁ᴀʙʏ🥀"
 
     await app.send_document(
         chat_id=message.chat.id,
