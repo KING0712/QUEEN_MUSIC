@@ -16,8 +16,8 @@ vdo_link = {}
 
 keyboard = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("⊝ ᴄʟᴏsᴇ ⊝", callback_data="close_data"), 
-            InlineKeyboardButton("⊝ ᴠᴘʟᴀʏ⊝", callback_data="play"),
+            InlineKeyboardButton("🖤 𝐂ʟᴏsᴇ 🖤", callback_data="close_data"), 
+            InlineKeyboardButton("👻 𝐕ᴘʟᴀʏ 👻", callback_data="play"),
         ]
 ])
 
@@ -98,8 +98,8 @@ async def get_random_video_info(client, message):
         vdo_link[message.chat.id] = {'link': video_link}
         keyboard1 = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("⊝ ᴄʟᴏsᴇ ⊝", callback_data="close_data"), 
-                InlineKeyboardButton("⊝ ᴠᴘʟᴀʏ⊝", callback_data=f"vplay"),
+                InlineKeyboardButton("🖤 𝐂ʟᴏsᴇ 🖤", callback_data="close_data"), 
+                InlineKeyboardButton("👻 𝐕ᴘʟᴀʏ 👻", callback_data=f"vplay"),
             ]
     ])
         await message.reply_video(video, caption=f"{title}", reply_markup=keyboard1)
