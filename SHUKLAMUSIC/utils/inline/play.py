@@ -61,14 +61,14 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="𝐊", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="𝐈", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="𝐍", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="𝐆", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="😈 𝐎𝐰𝐧𝐞𝐫 😈", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="☠️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ☠️", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="🚬⃪꯭𝐊ɪ𝆭͜η፝֟፝֟͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡ɢ⎯⃘⃔⃕🖤", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="😈 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 😈", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -78,14 +78,14 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="𝐊", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="𝐈", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="𝐍", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="𝐆", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="😈 𝐎𝐰𝐧𝐞𝐫 😈", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="☠️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ☠️", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="🚬⃪꯭𝐊ɪ𝆭͜η፝֟፝֟͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡ɢ⎯⃘⃔⃕🖤", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="😈 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 😈", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
