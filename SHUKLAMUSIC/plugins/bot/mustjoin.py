@@ -6,7 +6,7 @@ from SHUKLAMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "SHIVANSH474"
+MUST_JOIN = "KING_BHAI_BABY"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -23,11 +23,11 @@ async def must_join_channel(app: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://telegra.ph/file/d24262661dda3f1832290.jpg", caption=f"๏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
+                    photo="https://telegra.ph/file/5a37d74a59f00043d64f9.jpg", caption=f"𝐎ʏʏ 𝐏ᴀʜᴀʟᴇ [🖤 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🖤]({link}) 𝐆ʀᴏᴜᴘ 𝐉ᴏɪɴ 𝐊ᴀʀ... 𝐀ᴜʀ [🖤 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🖤]({link}) 𝐉ᴏɪɴ 𝐊ᴀʀɴᴇ 𝐊ᴇ 𝐁ᴀᴀᴅ 𝐇ɪ 𝐁ᴏᴛ 𝐒ᴛᴀʀᴛ 𝐇ᴏɢᴀ 😈 ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("๏Jᴏɪɴ๏", url=link),
+                                InlineKeyboardButton("😈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 😈", url=link),
                             ]
                         ]
                     )
