@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_DARK_ll_ZONE_l")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/l_DARK_ll_ZONE_l")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_TOXIC_ll_GROUP_l")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/l_TOXIC_ll_GROUP_l")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -141,21 +141,21 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/05f038c92bdabc660ca94.jpg"
+    "START_IMG_URL", "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/05f038c92bdabc660ca94.jpg"
+    "PING_IMG_URL", "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-STATS_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-STREAM_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/05f038c92bdabc660ca94.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+STATS_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+STREAM_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
