@@ -114,20 +114,20 @@ async def auto_state(_, message):
         state = message.text.split(None, 1)[1].strip().lower()
         if state == "off":
             if A:
-                await message.reply_text("**ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ !**")
+                await message.reply_text("**𝐖ᴇʟᴄᴏᴍᴇ 𝐍ᴏᴛɪғɪᴄᴀᴛɪᴏɴ 𝐀ʟʀᴇᴀᴅʏ 𝐃ɪsᴀʙʟᴇᴅ !**")
             else:
                 await wlcm.add_wlcm(chat_id)
-                await message.reply_text(f"**ᴅɪsᴀʙʟᴇᴅ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ɪɴ** {message.chat.title}")
+                await message.reply_text(f"**𝐃ɪsᴀʙʟᴇᴅ 𝐖ᴇʟᴄᴏᴍᴇ 𝐍ᴏᴛɪғɪᴄᴀᴛɪᴏɴ 𝐈ɴ** {message.chat.title}")
         elif state == "on":
             if not A:
-                await message.reply_text("**ᴇɴᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ.**")
+                await message.reply_text("**𝐄ɴᴀʙʟᴇ 𝐖ᴇʟᴄᴏᴍᴇ 𝐍ᴏᴛɪғɪᴄᴀᴛɪᴏɴ.**")
             else:
                 await wlcm.rm_wlcm(chat_id)
-                await message.reply_text(f"**ᴇɴᴀʙʟᴇᴅ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ɪɴ ** {message.chat.title}")
+                await message.reply_text(f"**𝐄ɴᴀʙʟᴇᴅ 𝐖ᴇʟᴄᴏᴍᴇ 𝐍ᴏᴛɪғɪᴄᴀᴛɪᴏɴ 𝐈ɴ ** {message.chat.title}")
         else:
             await message.reply_text(usage)
     else:
-        await message.reply("**sᴏʀʀʏ ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴇɴᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ!**")
+        await message.reply("**𝐒ᴏʀʀʏ 𝐎ɴʟʏ 𝐀ᴅᴍɪɴs 𝐂ᴀɴ 𝐄ɴᴀʙʟᴇ 𝐖ᴇʟᴄᴏᴍᴇ 𝐍ᴏᴛɪғɪᴄᴀᴛɪᴏɴ!**")
 
 
 
@@ -159,7 +159,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
             welcomeimg = welcomepic(
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
-            button_text = "๏ 𝐕ɪᴇᴡ 𝐍ᴇᴡ 𝐌ᴇᴍʙᴇʀ ๏"
+            button_text = "⏤‌•꯭꯭➻🇴𝐖𝐍𝐄𝐑 𓆪ꪾ🥀"
             add_button_text = ""
             deep_link = f"tg://openmessage?user_id={user.id}"
             add_link = f"https://t.me/{app.username}?startgroup=true"
